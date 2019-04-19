@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人信息</title>
+
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/personal.css">
+    <link rel="stylesheet" href="css/myAlert.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/myAlert.js"></script>
+
+    <link rel="stylesheet" href="css/carNumber.css">
+    <link rel="stylesheet" href="layer_mobile/need/layer.css">
+
+</head>
+<body>
+<div id="content">
+    <div id="top">
+        <div class="leftTop" onclick="window.history.back(-1)">
+            <span>&lt;</span>
+        </div>
+        <div class="titleTop">修改信息</div>
+        <div class="rightTop save">保存</div>
+    </div>
+    <div id="middle">
+        <ul class="nameBox">
+            <li>
+                <span>昵称</span>
+                <div class="userName" contenteditable="true"></div>
+            </li>
+            <li>
+                <span>姓名</span>
+                <div class="Name" contenteditable="true"></div>
+            </li>
+        </ul>
+        <ul class="phoneBox">
+            <li class="SexBox">
+                <span>性别</span>
+                <div class="sex"></div>
+            </li>
+            <li>
+                <span>手机号</span>
+                <div class="phone"></div>
+            </li>
+        </ul>
+        <ul class="carBox">
+            <li>
+                <span>车牌号</span>
+                <input type="text" id="carnum1" autocomplete="off" placeholder="请输入车牌号1" class="carText1">
+            </li>
+            <li>
+                <span></span>
+                <input type="text" id="carnum2" autocomplete="off" placeholder="请输入车牌号2" class="carText2">
+            </li>
+            <li>
+                <span hidden></span>
+                <input type="text" id="carnum3" autocomplete="off" placeholder="请输入车牌号3" class="carText3">
+            </li>
+        </ul>
+    </div>
+
+    <div class="showBox"></div>
+    <div class="ShowsexBox">
+        <ul>
+            <li>男</li>
+            <li>女</li>
+        </ul>
+    </div>
+
+</div>
+</body>
+
+<script src="layer_mobile/layer.js"></script>
+<script src="js/CarNumber.js"></script>
+<script src="js/personal.js"></script>
+</html>

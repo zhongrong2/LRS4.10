@@ -1,0 +1,90 @@
+#body-content{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #f2f2f2;
+    display: block;
+    margin: 0 auto;
+    padding-top: 0.8rem;
+    font-family: PingFangSC-Regular, sans-serif;
+}
+.content{
+    width: 100%;
+    float: left;
+}
+.content ul{
+    width: 100%;
+    background-color: white;
+    padding: 0rem 0.8rem;
+    display: block;
+    float: left;
+}
+.content li{
+    width: 100%;
+    height: 1rem;
+    border-bottom: 0.01rem solid #F2F2F2;
+    line-height: 1rem;
+    float: left;
+    padding-right: 0.2rem;
+}
+.content li:last-child{
+    border-bottom: none;
+}
+.content input{
+    width: 100%;
+    height: 0.9rem;
+    font-size: 0.28rem;
+    color: #b2b2b2;
+    line-height: 0.9rem;
+    border:none;
+    padding-left: 0.03rem;
+    float: left;
+}
+.code{
+    width: 75%!important;
+}
+.codeBox{
+    float: right;
+    height: 1rem;
+    display: flex;
+}
+.sendCode{
+    width: 1.2rem;
+    height: 0.4rem;
+    background-color: #2a2f7b;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.2rem;
+    color: white;
+    border-radius: 0.1rem;
+    margin: auto;
+}
+.referee{
+    width: 35%!important;
+}
+.prompt{
+    float: right;
+    height: 1rem;
+    display: flex;
+    font-size: 0.24rem;
+    color: #cccccc;
+
+}
+.btn{
+    width: 100%;
+    margin-top: 3.6rem;
+    float: left;
+}
+.sure{
+    width: 3.28rem;
+    height: 0.6rem;
+    text-align: center;
+    line-height: 0.6rem;
+    background-color: #2d2f7d;
+    font-size: 0.26rem;
+    color: white;
+    border: none;
+    border-radius: 0.1rem;
+    display: block;
+    margin: 0 auto;
+}

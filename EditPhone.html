@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>修改手机号</title>
+
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/EditPhone.css">
+    <link rel="stylesheet" href="css/myAlert.css">
+
+</head>
+<body>
+<div id="content">
+    <div id="top">
+        <div class="leftTop" onclick="window.history.back(-1)">
+            <span>&lt;</span>
+        </div>
+        <div class="titleTop">修改手机号</div>
+        <div class="rightTop save" id="save">保存</div>
+    </div>
+    <div id="middle">
+        <ul class="PhoneBox">
+            <li>
+                <span>旧手机号</span>
+                <div class="OldPhone" contenteditable="true"></div>
+            </li>
+            <li>
+                <span>新手机号</span>
+                <div id="phone" class="newPhone" contenteditable="true"></div>
+                <div id="code" onClick="sendMessage1()">获取验证码</div>
+            </li>
+            <li>
+                <span>验证码</span>
+                <div class="newPhone" contenteditable="true"></div>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/myAlert.js"></script>
+<script src="js/code.js"></script>
+<script src="js/EditPhone.js"></script>
+
+</html>

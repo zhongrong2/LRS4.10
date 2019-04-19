@@ -1,0 +1,65 @@
+body{
+    background-color: #f2f2f2;
+}
+#content{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+#top{
+    width: 100%;
+    height: auto;
+    padding: 10px 6px;
+    background-color: #ffffff;
+}
+.leftTop,.rightTop{
+    width: 16%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+.leftTop>span{
+    font-size: 24px;
+    line-height: 24px;
+}
+.rightTop{
+    line-height: 24px;
+}
+.titleTop{
+    width: 64%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
+}
+#middle{
+    width: 100%;
+    height: auto;
+}
+.PassBox{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    background-color: white;
+    padding:0px 14px;
+}
+.PassBox li{
+    padding:10px 0px;
+    border-bottom:1px solid #dddddd;
+}
+.PassBox>li:last-child{
+    border-bottom: none;
+}
+.PassBox span{
+    display: inline-block;
+    width: 24%;
+    text-align: left;
+}
+.PassBox input{
+    display: inline-block;
+    width: 66%;
+    text-align: left;
+    border:none;
+    padding:4px 0px;
+}

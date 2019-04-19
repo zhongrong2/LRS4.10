@@ -1,0 +1,80 @@
+#content{
+    width: 100%;
+    height: auto;
+    overflow-y: scroll;
+}
+#top{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding:0.4rem 0.2rem 0.9rem;
+    background-color: #05bdea;
+    display: block;
+}
+.leftTop{
+    width: 30%;
+    height: 1.4rem;
+    display: inline-block;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.rightTop{
+    width: 65%;
+    height: 1.4rem;
+    display: inline-block;
+    color: white;
+    font-size: 0.28rem;
+}
+.name{
+    width: 100%;
+    height: auto;
+    padding:0.1rem;
+    float: left;
+}
+.memberNumBox{
+    width: 100%;
+    height: auto;
+    padding:0.1rem;
+    float: left;
+}
+#middle{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+}
+.item{
+    width: 33.3%;
+    padding:0.2rem 0.1rem 0.1rem 0.1rem;
+    float: left;
+    border-right: 0.01rem solid #CCCCCC;
+    border-bottom: 0.01rem solid #CCCCCC;
+    float: left;
+    background-color: white;
+}
+.item:nth-child(3n){
+    border-right: none;
+}
+.itemImg{
+    width: 40%;
+    margin: 0 auto;
+}
+.itemImg img{
+    width: 100%;
+    height: auto;
+}
+.title{
+    width: 100%;
+    padding:0.06rem;
+    display: block;
+    text-align: center;
+    font-size: 0.26rem;
+    color: #222222;
+}

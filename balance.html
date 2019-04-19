@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>余额查询</title>
+
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/balance.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/echarts.min.js"></script>
+
+</head>
+<body>
+<div id="content">
+    <div id="top">
+        <div class="topbox">
+            <div class="leftTop">
+                <span></span>
+            </div>
+            <div class="titleTop"></div>
+            <div class="rightTop" onclick="window.history.back(-1)">
+                <span>返回</span>
+            </div>
+        </div>
+    </div>
+    <div id="middle">
+        <div class="middleTop">
+            <div class="middleItem">
+                <div class="ItemImg">
+                    <img src="img/bal01.png" alt="">
+                </div>
+                <div class="ItemTile">
+                    <span>余额</span>
+                </div>
+                <div class="ItemNum">
+                    <span>3000</span>
+                </div>
+            </div>
+            <div class="middleItem">
+                <div class="ItemImg">
+                    <img src="img/bal02.png" alt="">
+                </div>
+                <div class="ItemTile">
+                    <span>充值</span>
+                </div>
+                <div class="ItemNum">
+                    <span>5000</span>
+                </div>
+            </div>
+            <div class="middleItem">
+                <div class="ItemImg">
+                    <img src="img/bal03.png" alt="">
+                </div>
+                <div class="ItemTile">
+                    <span>积分</span>
+                </div>
+                <div class="ItemNum">
+                    <span>1000</span>
+                </div>
+            </div>
+        </div>
+        <div class="middlebox"></div>
+        <div class="Echart">
+            <div id="middleEchart" class="middleEchart"></div>
+        </div>
+        <div class="middleFoot">
+            <div class="FootItem">
+                <span class="Time">一月</span>
+                <div>
+                    ￥<span class="price">1500</span>
+                </div>
+            </div>
+            <div class="FootItem">
+                <span class="Time">二月</span>
+                <div>
+                    ￥<span class="price">1800</span>
+                </div>
+            </div>
+            <div class="FootItem">
+                <span class="Time">三月</span>
+                <div>
+                    ￥<span class="price">1763</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+
+<script src="js/balance.js"></script>
+
+</html>

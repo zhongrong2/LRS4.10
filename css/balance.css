@@ -1,0 +1,135 @@
+#content{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+#top{
+    width: 100%;
+    height: 36%;
+    display: block;
+    margin: 0 auto;
+    background-image: url("../img/balTop.png");
+    background-size: 100% 100%;
+}
+.topbox{
+    width: 100%;
+    height: auto;
+    padding: 24px 8px 10px;
+}
+.leftTop,.rightTop{
+    width: 16%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    color: #f8f8f8;
+}
+.leftTop>span{
+    font-size: 24px;
+    line-height: 24px;
+}
+.rightTop{
+    line-height: 24px;
+}
+.titleTop{
+    width: 64%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
+}
+#middle{
+    width: 100%;
+    height: 64%;
+    display: block;
+    margin: 0 auto;
+    background-color: #ffffff;
+    position: relative;
+}
+.middleTop{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: -34px;
+    z-index: 5;
+    padding: 0px 10px;
+}
+.middleItem{
+    width: 32.6%;
+    height: 100%;
+    margin-right: 1%;
+    background: #FFFFFF;
+    float: left;
+
+    /*盒子阴影*/
+    border: 1px solid #ececec;
+    -webkit-box-shadow: #9b9b9b 0px 4px 8px;
+    -moz-box-shadow: #9b9b9b 0px 4px 8px;
+    box-shadow: #9b9b9b 0px 4px 8px;
+}
+.middleItem:last-child{
+    margin-right: 0px;
+}
+.ItemImg{
+    width: 46%;
+    height: auto;
+    margin: 30px auto 6px;
+}
+.ItemImg img{
+    width: 100%;
+    height: auto;
+}
+.ItemTile{
+    width: 100%;
+    line-height: 20px;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+.ItemNum{
+    width: 100%;
+    line-height: 30px;
+    font-size: 16px;
+    color: #3A62EC;
+    text-align: center;
+}
+.middlebox{
+    width: 100%;
+    height:30%;
+}
+.Echart{
+    width: 100%;
+    height: 50%;
+}
+.middleEchart{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+}
+.middleFoot{
+    width: 100%;
+    height: 30%;
+    padding:0px 30px;
+}
+.FootItem{
+    width: 30%;
+    height: 44%;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background: -moz-linear-gradient(left, #3B69EE 0%, #0BC6D9 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#3B69EE), color-stop(100%,#0BC6D9));
+    background: -webkit-linear-gradient(left, #3B69EE 0%,#0BC6D9 100%);
+    background: -o-linear-gradient(left, #3B69EE 0%,#0BC6D9 100%);
+    background: -ms-linear-gradient(left, #3B69EE 0%,#0BC6D9 100%);
+    background: linear-gradient(to right, #3B69EE 0%,#0BC6D9 100%);
+    float: left;
+    margin-right: 5%;
+    color: white;
+    text-align: center;
+    padding: 6px 0px;
+}
+.FootItem:last-child{
+    margin-right: 0;
+}
+

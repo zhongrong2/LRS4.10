@@ -1,0 +1,205 @@
+body{
+    background-color: #f2f2f2;
+}
+#content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#top{
+    width: 100%;
+    height: auto;
+    padding: 10px 6px;
+    background-color: #ffffff;
+    display: block;
+    position: relative;
+}
+.leftTop,.rightTop{
+    width: 16%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+.leftTop>span{
+    font-size: 24px;
+    line-height: 24px;
+}
+.rightTop{
+    line-height: 24px;
+}
+.titleTop{
+    width: 64%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
+}
+.middle{
+    width: 100%;
+    height: 92%;
+    display: block;
+    position: fixed;
+    overflow-y: auto;
+}
+#form{
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+#form ul{
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    padding:10px 16px;
+    color: #7a7a7a;
+    font-size: 14px;
+    z-index: 5;
+}
+#form ul li{
+     padding:2px 0px;
+ }
+.Time{
+    font-size: 16px;
+    color: black;
+}
+
+.priceBox span{
+    padding:0px 2px;
+}
+.priceBox table{
+    width: 100%;
+}
+.priceBox table tr{
+    width: 100%;
+    height: auto;
+}
+.priceBox table td{
+    width: 50%;
+    height: auto;
+}
+.class{
+    float: right;
+    padding-right: 14px!important;
+    color: black;
+}
+.refund{
+    width: 20%;
+    float: right;
+    padding:2px;
+    border: 1px solid #c8c8c8;
+    text-align: center;
+    border-radius: 8px;
+    color: black;
+}
+
+
+#password{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    /*background-color: black;
+    opacity: 0.4;*/
+    background-color: rgba(0,0,0,0.3);
+    z-index: 5;
+    display: none;
+}
+.passBox{
+    width: 90%;
+    height: 160px;
+    margin: 100px auto;
+    /*background: black;*/
+    /*background-color: rgba(0,0,0,0.3);*/
+    /*opacity: 0.6;*/
+    background-color: #FFFFFF;
+}
+.order{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    height: 60px;
+    border-bottom: 1px solid #5581f0;
+    padding-top: 20px;
+}
+.order input{
+    width: 100%;
+    height: 38px;
+    border:none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+.btns{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.btn{
+    width: 40%;
+    height: 36px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #5581f0;
+    color: #FFFFFF;
+    line-height: 36px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.sure{
+    margin-right: 30px;
+}
+
+
+
+
+
+
+/* 键盘 */
+.layer-content,.layer-content1,.layer-content2 {
+    position: absolute;
+    left: 50%;
+    bottom: -200px;
+    width: 100%;
+    max-width: 640px;
+    max-height: 300px;
+    z-index: 12;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    display: none;
+    overflow: scroll;
+}
+.form_edit,.form_edit1,.form_edit2 {
+    width: 100%;
+    background: #D1D4DD;
+    border-top: 2px solid #DEE1E9;
+}
+
+.form_edit> div,.form_edit1> div{
+    margin-bottom: 2px;
+    margin-right: 0.5%;
+    float: left;
+    width: 24.6%;
+    height: 45px;
+    text-align: center;
+    color: #333;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.form_edit> div{
+    width: 32.8%;
+}
+
+.form_edit1> div:nth-child(4n),.form_edit2> div:nth-child(4n) {
+    margin-right: 0;
+}
+
+.form_edit> div:last-child ,.form_edit1> div:last-child {
+    background-color: #DEE1E9;
+}

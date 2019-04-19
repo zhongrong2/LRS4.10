@@ -1,0 +1,76 @@
+body{
+    background-color: #f2f2f2;
+}
+#content{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+#top{
+    width: 100%;
+    height: auto;
+    padding: 10px 6px;
+    background-color: #ffffff;
+}
+.leftTop,.rightTop{
+    width: 16%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+.leftTop>span{
+    font-size: 24px;
+    line-height: 24px;
+}
+.rightTop{
+    line-height: 24px;
+}
+.titleTop{
+    width: 64%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
+}
+#middle{
+    width: 100%;
+    height: auto;
+}
+.PhoneBox{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    background-color: white;
+    padding:0px 14px;
+}
+.PhoneBox li{
+    padding:10px 0px;
+    border-bottom:1px solid #dddddd;
+}
+.PhoneBox>li:last-child{
+    border-bottom: none;
+}
+.PhoneBox span{
+    display: inline-block;
+    width: 24%;
+    text-align: left;
+}
+.PhoneBox div{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+.newPhone{
+    width: 44%!important;
+}
+#code{
+    width: 28%;
+    display: inline-block;
+    text-align: center;
+    padding: 6px 0px;
+    background-color: #00aaee;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+}
