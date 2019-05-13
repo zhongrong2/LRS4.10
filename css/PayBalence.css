@@ -261,6 +261,8 @@ html{
     display: block;
     margin: 0 auto;
     border-radius: 0.1rem;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
 }
 /*banner样式*/
 .banner{
